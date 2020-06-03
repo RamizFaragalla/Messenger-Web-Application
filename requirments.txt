@@ -1,0 +1,15 @@
+Need:
+
+Done:
+- login/logout/register
+	- hashed passwords
+	- session
+- messaging page
+- Database:
+	- user: userID(PK), userName, hashedPassword
+	- message: content, date, messageID(PK), sender(FK), recipient(FK)
+- delete
+- upload:pics, txt
+- header: username, numFriends, logout, etc
+- security
+- provide a name through GET not in db
